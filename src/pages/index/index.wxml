@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+ <text class="" selectable="false" space="false" decode="false">
+   我是首页aaaaa
+ </text>
+</view>
