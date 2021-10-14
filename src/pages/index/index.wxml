@@ -1,4 +1,9 @@
 <!--index.wxml-->
 
   <text bindtap="switchToRate">汇率计算案例</text>
+  // <button class="default" size="mini" type="default" plain="default"  
+  //   hover-class="button-hover" hover-stop-propagation="false" 
+  //    form-type="submit|reset" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+  //   获取用户信息
+  // </button>
 
