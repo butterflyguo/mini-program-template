@@ -1,0 +1,22 @@
+.rate-item-container {
+  height: 240rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.rate-item-container .rate-item-container-img {
+  width: 200rpx;
+  height: 200rpx;
+}
+.rate-item-container .rate-item-container-text {
+  font-size: 30rpx;
+}
+.rate-item-container .rate-item-container-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.rate-item-container .rate-item-container-right .base-text-color {
+  color: #8090b5;
+}

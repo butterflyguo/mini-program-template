@@ -1,0 +1,6 @@
+var formatNum = function (num) {
+    return num.toFixed(2)
+ }
+module.exports =  {
+    formatNum:formatNum
+ }

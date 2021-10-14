@@ -1,0 +1,5 @@
+<view class="container">
+<block wx:for="{{rateList}}" wx:key="name">
+    <rate-item  data="{{ item }}"  isNumShow="" currentKey="{{ currentKey }}" bindtap="exChangeBaseRate" data-key="{{ item.name }}"/>
+</block>
+</view>

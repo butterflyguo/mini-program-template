@@ -25,6 +25,9 @@ module.exports = {
                 from:'**/*.json',
                 to:'./'
             },{
+                from:'**/*.wxs',
+                to:'./'
+            },{
                 from:'**/*.less',
                 to:'./',
                 transform(content) {

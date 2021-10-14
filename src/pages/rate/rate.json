@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "汇率转换",
+  "usingComponents": {
+    "rate-item":"./components/rateItem"
+  }
+}

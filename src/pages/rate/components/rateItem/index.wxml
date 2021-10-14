@@ -1,0 +1,11 @@
+<wxs src="./util.wxs" module="utils"></wxs>
+
+<view class="rate-item-container" >
+    <image class="rate-item-container-img" src="{{ data.img }}"></image>
+    <text class="rate-item-container-text">{{ data.name }}</text>
+    <view class="rate-item-container-right">
+        <view wx:if="{{ isNumShow }}">{{  utils.formatNum((data.baseNum/baseNum)*inputValue) }}</view>
+         <view wx:if="{{ currentKey == data.name }}" class="base-text-color">当前基础货币</view> 
+        <view>{{ data.label }}</view>
+    </view>
+</view>

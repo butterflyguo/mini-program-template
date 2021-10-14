@@ -1,0 +1,6 @@
+{
+   "navigationBarTitleText": "基础数值页", 
+  "usingComponents": {
+    "rate-item":"../rate/components/rateItem"
+  }
+}

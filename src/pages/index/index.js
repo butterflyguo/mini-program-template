@@ -14,9 +14,9 @@ Page({
 
   },
   // 事件处理函数
-  bindViewTap: function bindViewTap() {
+  switchToRate: function () {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '/pages/rate/rate'
     });
   },
   onLoad: function onLoad() {

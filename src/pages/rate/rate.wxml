@@ -1,0 +1,31 @@
+
+<view class="container">
+<!-- 基础货币部分 -->
+  <view>
+    <view class="base-panel">
+    <view>
+       基础货币
+    </view>
+     <view class="base-panel-btn" hover-class="base-panel-btn-hover" bindtap="changeBase">
+       切换
+     </view>
+    </view>
+    <view class="base-down">
+      <image class="base-down-img" src="{{baseItem.img}}"/>
+      <text class="base-down-img-text"> {{ baseItem.name }}</text>
+      <view class="base-down-right">
+        <input class="" value="{{ inputValue }}"  placeholder="100"  placeholder-class="input-placeholder" 
+          focus="true" bindblur="bindblur" class="base-down-right-input">
+        </input>
+        <text>{{ baseItem.label }}</text>
+      </view>
+    </view>
+  </view>
+  <view class="show-panel">
+    <block wx:for="{{showData}}" wx:key="id">
+      <rate-item  data="{{ item }}" inputValue="{{ inputValue }}" isNumShow="true" baseNum="{{ baseItem.baseNum }}"/>
+    </block>
+    
+  </view>
+
+</view>

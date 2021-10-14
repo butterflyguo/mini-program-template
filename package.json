@@ -16,7 +16,7 @@
     "webpack-dev-server": "^4.3.1"
   },
   "scripts": {
-    "clean": "shx rm -rf dist/*",
+    "clean": "shx rm -rf ./dist/*",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run clean && webpack --config webpack.config.js"
   },
