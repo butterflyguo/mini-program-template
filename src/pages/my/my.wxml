@@ -1,0 +1,10 @@
+
+<!-- <view class="header-container">
+    <image class="header-container-img" src="{{ avatarUrl }}" ></image>
+    <text class="header-container-name">{{ nickName }}</text>
+ </view> -->
+
+<view>
+    <button wx:if="{{ !isLogin }}" class='authBtn' type='primary'  bingtap="getUserInfo">授权登录</button>
+</view>
+

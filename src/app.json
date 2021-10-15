@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/rate/rate",
-    "pages/rateSelect/rateSelect"
+    "pages/rateSelect/rateSelect",
+    "pages/my/my"
 
   ],
   "window":{
@@ -13,5 +14,18 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./icons/icon_home@3x.png",
+      "selectedIconPath": "./icons/icon_home_active@3x.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "./icons/icon_me@3x.png",
+      "selectedIconPath": "./icons/icon_me_active@3x.png"
+    }]
+  }
 }
